@@ -24,29 +24,21 @@
 
 </head>
 <body class="lato">
-  <header class="container mx-auto">
-   <nav class="m-4 flex items-center justify-between bg-[#f85559] rounded-full px-3 py-1">
-  
-      <div class="hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Item 1</a></li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </details>
-          </li>
-          <li><a>Item 3</a></li>
+  <header class=" ">
+    <nav class="mx-32 my-4 flex items-center justify-between bg-[#f85559] rounded-full px-3 py-1">
+     <div class="hidden lg:flex">
+        <ul class="menu text-white menu-horizontal px-1">
+        <li class=" "><a>Home</a></li>
+        <li class=" "><a>About Us</a></li>
+        <li><a>Shop</a></li>
+        <li><a>All Fruits</a></li>
         </ul>
       </div>
-    <div class=" ">
-      
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+    <div class="flex gap-0">
+       <img class="w-1/5 h-1/5" src="images/logo.png" alt=""> 
+      <a class="btn btn-ghost text-xl text-white -ml-3">Fruit Burst</a>
     </div>
-   
+  
     <div class="flex items-center">
       <div class="relative lg:flex items-center hidden">
         <input type="text" placeholder="Search" class="input w-[300px] rounded-full" />
@@ -57,69 +49,81 @@
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
+        <ul tabindex="0" class="text-right absolute right-3  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+          <li class=" "><a>Home</a></li>
+            <li class=" "><a>About Us</a></li>
           <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
+            <a>Shop</a>
+            
           </li>
-          <li><a>Item 3</a></li>
+          <li><a>All Fruits</a></li>
+         
         </ul>
       </div>
     </div>
 
    </nav>
-  </header>
+  </header> 
  <main>
-<section class="container mx-auto flex justify-center items-center">
-  <div class="carousel">
-    <div id="slide1" class="carousel-item slider1 w-full h-[450px] md:h-full flex justify-center items-center">
-      <div class="Stext text-white text-center space-y-3">
+  
+ <section class="max-w-screen-xl mx-auto rounded-lg">
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item items-center justify-center relative w-full">
+      <img src="images/banner1.png" class="w-full"/>
+      <div class="bg-gradient-to-b from-[#121212] to-[#12121200] w-full h-full absolute top-0 left-0 rounded-lg"></div>
+      <div class="Stext text-white text-center space-y-3 absolute">
         <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
         <p>We supply highly quality organic products</p>
         <button class="btn bg-[#f85559] font-bold text-white">Shop Now</button>
       </div>
-
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide4" class="btn btn-circle">❮</a> 
         <a href="#slide2" class="btn btn-circle">❯</a>
       </div>
     </div> 
-    <div id="slide2" class="carousel-item relative w-full bg-[hero]">
-      <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="" />
+    <div id="slide2" class="carousel-item items-center justify-center relative w-full">
+      <img src="images/banner2.png" class="w-full"/>
+      <div class="bg-gradient-to-b from-[#121212] to-[#12121200] w-full h-full absolute top-0 left-0 rounded-lg"></div>
+      <div class="Stext text-white text-center space-y-3 absolute">
+        <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button class="btn bg-[#f85559] font-bold text-white">Shop Now</button>
+      </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide1" class="btn btn-circle">❮</a> 
         <a href="#slide3" class="btn btn-circle">❯</a>
       </div>
     </div> 
-    <div id="slide3" class="carousel-item relative w-full">
-      <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    <div id="slide3" class="carousel-item items-center justify-center relative w-full">
+      <img src="images/banner3.png" class="w-full"/>
+      <div class="bg-gradient-to-b from-[#121212] to-[#12121200] w-full h-full absolute top-0 left-0 rounded-lg"></div>
+      <div class="Stext text-white text-center space-y-3 absolute">
+        <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button class="btn bg-[#f85559] font-bold text-white">Shop Now</button>
+      </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide2" class="btn btn-circle">❮</a> 
         <a href="#slide4" class="btn btn-circle">❯</a>
       </div>
-    </div> 
-    <div id="slide4" class="carousel-item relative w-full">
-      <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    </div>  
+    <div id="slide4" class="carousel-item items-center justify-center relative w-full">
+      <img src="images/banner4.png" class="w-full"/>
+      <div class="bg-gradient-to-b from-[#121212] to-[#12121200] w-full h-full absolute top-0 left-0 rounded-lg"></div>
+      <div class="Stext text-white text-center space-y-3 absolute">
+        <h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button class="btn bg-[#f85559] font-bold text-white">Shop Now</button>
+      </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide3" class="btn btn-circle">❮</a> 
         <a href="#slide1" class="btn btn-circle">❯</a>
       </div>
-    </div>
+    </div> 
   </div>
-</section>
-   
+ </section>
 
   </main>
-  
-
-
-  
-
-
-    
+ 
 </body>
 </html>
