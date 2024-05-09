@@ -10,3 +10,17 @@
   .btn-sm{
 
   }
+
+  .lato {
+font-family: "Lato", sans-serif;
+}
+.card-new{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--rounded-box, 1rem);
+    justify-content: center;
+     height: 100%;
+}
+
+
